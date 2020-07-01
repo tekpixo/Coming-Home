@@ -1,4 +1,4 @@
-"Coming Home" by Geraldo
+"Coming Home" by Alexandre, Douglas and Lincoln
 
 Chapter 1 New Kinds
 
