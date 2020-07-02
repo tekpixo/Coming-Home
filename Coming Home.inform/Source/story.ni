@@ -42,25 +42,55 @@ Section 2.1 The House
 Porch is a room.  
 Hall is room. 
 
-Main door is a door. It is north of Porch and south of Hall. Main door is closed and locked.
-The matching key of the Main door is Main key.
-
-Living Room is a room. Living room is north of Hall. "Descrição do Living Room."
-Garage is a room. Garage is west of Living Room. "Descrição da Garage."
-Kitchen is a room.  Kitchen is north of garage. "Descrição da Kitchen."
-Dining Room is a room. Dining room is east of kitchen. Dining Room is north of Living Room. "Descrição do Dining Room."
-Home Office is a room. Home Office is east of Living Room. "Descrição do Home Office."
-Lavabo is a room. Lavabo is east of Hall. "Descrição do lavabo."
+Living Room is a room. "Descrição do Living Room."
+Garage is a room. "Descrição da Garage."
+Kitchen is a room. "Descrição da Kitchen."
+Dining Room is a room. "Descrição do Dining Room."
+Home Office is a room. "Descrição do Home Office."
+Lavabo is a room. "Descrição do lavabo."
 Stairs is a staircase. It is above Hall and below Upper Hall.
 Upper Hall is a room. "Descrição do Upper Hall."
-Large Bedroom is a room. Large Bedroom is north of Upper Hall. "Descrição do Large Bedroom."
-Medium Bedroom is a room.  Medium Bedroom is east of Upper Hall. "Descrição do Medium Bedroom."
-Small Bedroom is a room. Small Bedroom is west of Upper Hall. "Descrição do Small Bedroom."
-Bathroom is a room. Bathroom is south of Upper Hall. "Descrição do Bathroom."
-Inner Bathroom is a room. Inner Bathroom is west of Large Bedroom. "Descrição do Inner Bathroom."
+Large Bedroom is a room. "A really large and messy room."
+Medium Bedroom is a room. "Descrição do Medium Bedroom."
+Small Bedroom is a room. "Descrição do Small Bedroom."
+Bathroom is a room."Descrição do Bathroom."
+Inner Bathroom is a room. "Descrição do Inner Bathroom."
 
 First Floor is a region. The Hall, Living Room, Garage, Kitchen, Dining Room, Home Office and Lavabo are in First Floor.
 Second Floor is a region. The Upper Hall, The Large Bedroom, the Medium Bedroom, The Small Bedroom, The Bathroom and the Inner Bathroom are in Second Floor.
+
+Section 2.2 Doors
+
+Main door is a door. It is north of Porch and south of Hall. Main door is closed and locked.
+The matching key of the Main door is Main key.
+
+Red door is a door. It is north of Hall and south of Living Room. Red door is closed and unlocked.
+
+Yellow door is a door. It is north of Living Room and south of Dining Room. Yellow door is closed and unlocked.
+
+Green door is a door. It is west of Dining Room and east of Kitchen. Green door is closed and unlocked.
+
+Orange door is a door. it is south of Kitchen and north of Garage. Orange door is closed and locked.
+The matching key of the Orange door is the Orange key.
+
+Brown door is a door. it is west of Living Room and east of Garage. Brown door is closed and locked.
+
+White door is a door. it is west of Home Office and east of Living Room. White door is closed and locked.
+The matching key of the White door is the White key.
+
+Gray door is a door. it is west of Lavabo and east of Hall. Gray door is closed and locked.
+The matching key of the Gray door is the Gray key.
+
+Blue door is a door. It is east of Large Bedroom and west of Inner Bathroom. Blue door is open.
+
+Black door is a door. It is south of Large Bedroom and north of Upper Hall. Black door is closed and unlocked.
+
+Scratched door is a door. It is west of Upper Hall and east of Small Bedroom. Scratched door is closed and unlocked.
+
+Purple door is a door. It is north of Bathroom and south of Upper Hall. Purple door is closed and unlocked.
+
+Heart-painted door is a door. It is west of Medium Bedroom and east of Upper Hall. Heart-painted door is closed and locked.
+The matching key of the Heart-painted door is the Heartshaped key.
 
 Chapter 3 Things
 
@@ -109,7 +139,9 @@ Section 3.13 On the Bathroom
 
 Section 3.14 On the Inner Bathroom
 
-Chapter 4 What Happens when entering
+Chapter 4 What Happens when entering each room
+
+
 
 Being Outside the House is a Scene. 
 Being Outside the House begins when play begins.
@@ -128,10 +160,15 @@ Figure of InitialPicture is the file "house.jpg"
 When play begins:
 	Display the Figure of InitialPicture ;
 	Say "A chilling wind blows in the late afternoon.".
+
+[ Hall ]	
+
+Bark From Hall is a scene. "You hear a bark coming from the Red door."
+Lilie Crying From Hall is a scene. "Someone is crying upstairs."
+Bark From Hall begins when the Player is in the Hall for the first turn.	
+Lilie Crying From Hall begins when the Player is in the Hall for the first turn.	
 	
-Bark is a scene. "You hear a bark coming from a room next to you."
-Lilie Crying is a scene. "Someone is crying upstairs."
-Bark begins when the Player is in the Hall for the first turn.	
-Lilie Crying begins when the Player is in the Hall for the first turn.	
-	
-	
+[ Living Room ]
+
+Bark From Living Room is a scene. "A Labradors barks to. From his dog collar, you see his name must be Apolo."
+Bark From Living Room begins when the Player is in the Living Room for the first turn.
