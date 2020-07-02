@@ -7,17 +7,17 @@
         </identification>
         <bibliographic>
             <title>Coming Home</title>
-            <author>Geraldo</author>
+            <author>Alexandre, Douglas and Lincoln</author>
             <headline>An Interactive Fiction</headline>
             <genre>Fiction</genre>
-            <firstpublished>2019</firstpublished>
+            <firstpublished>2020</firstpublished>
             <language>en</language>
             <group>Inform</group>
         </bibliographic>
         <releases>
             <attached>
                 <release>
-                    <releasedate>2019-07-26</releasedate>
+                    <releasedate>2020-07-02</releasedate>
                     <version>1</version>
                     <compiler>Inform 7</compiler>
                     <compilerversion>6M62</compilerversion>
@@ -27,10 +27,10 @@
         <colophon>
             <generator>Inform 7</generator>
             <generatorversion>6M62</generatorversion>
-            <originated>2019-07-26</originated>
+            <originated>2020-07-02</originated>
         </colophon>
         <glulx>
-            <serial>190726</serial>
+            <serial>200702</serial>
             <release>1</release>
             <compiler>Inform 7 build 6M62</compiler>
         </glulx>

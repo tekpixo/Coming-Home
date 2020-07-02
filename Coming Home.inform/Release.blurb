@@ -1,29 +1,29 @@
 ! Blurb file created by Inform build 6M62
 
-status "F:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\Users\Geraldo\Dropbox\Documents\GitHub\Coming Home\Coming Home.inform\Build\StatusCblorb.html"
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\UFRJ\Projeto de Jogos\Coming-Home\Coming Home.inform\Build\StatusCblorb.html"
 
 
 ! Identification
 
-project folder "C:\Users\Geraldo\Dropbox\Documents\GitHub\Coming Home\Coming Home.inform"
-release to "C:\Users\Geraldo\Dropbox\Documents\GitHub\Coming Home\Coming Home.materials\Release"
+project folder "C:\UFRJ\Projeto de Jogos\Coming-Home\Coming Home.inform"
+release to "C:\UFRJ\Projeto de Jogos\Coming-Home\Coming Home.materials\Release"
 
 ! Blorb instructions
 
 storyfile leafname "Coming Home.gblorb"
-storyfile "C:\Users\Geraldo\Dropbox\Documents\GitHub\Coming Home\Coming Home.inform\Build\output.ulx" include
-ifiction "C:\Users\Geraldo\Dropbox\Documents\GitHub\Coming Home\Coming Home.inform\Metadata.iFiction" include
-cover "F:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
-picture 1 "F:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
-picture 3 "C:\Users\Geraldo\Dropbox\Documents\GitHub\Coming Home\Coming Home.materials\Figures\house.jpg"
+storyfile "C:\UFRJ\Projeto de Jogos\Coming-Home\Coming Home.inform\Build\output.ulx" include
+ifiction "C:\UFRJ\Projeto de Jogos\Coming-Home\Coming Home.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 3 "C:\UFRJ\Projeto de Jogos\Coming-Home\Coming Home.materials\Figures\house.jpg"
 
 ! Placeholder variables
 
 placeholder [IFID] = "AFED7449-E600-46F2-A8B7-F5C142F40AA1"
 placeholder [RELEASE] = "1"
-placeholder [YEAR] = "2019"
+placeholder [YEAR] = "2020"
 placeholder [TITLE] = "Coming Home"
-placeholder [AUTHOR] = "Geraldo"
+placeholder [AUTHOR] = "Alexandre, Douglas and Lincoln"
 placeholder [BLURB] = "A work of interactive fiction."
 
 ! Other material to release
