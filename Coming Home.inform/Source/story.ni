@@ -144,7 +144,7 @@ Lilie is in Upper Hall.
 
 Section 3.10 On the Large Bedroom
 
-Lilie's doll is a thing. 
+Lilie's doll is a thing. Lilie's doll is in Large Bedroom.
 
 Section 3.11 On the Medium Bedroom
 
