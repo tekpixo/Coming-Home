@@ -73,7 +73,7 @@ Green door is a door. It is west of Dining Room and east of Kitchen. Green door 
 Orange door is a door. it is south of Kitchen and north of Garage. Orange door is closed and locked.
 The matching key of the Orange door is the Orange key.
 
-Brown door is a door. it is west of Living Room and east of Garage. Brown door is closed and locked.
+Brown door is a door. it is west of Living Room and east of Garage. Brown door is closed and unlocked.
 
 White door is a door. it is west of Home Office and east of Living Room. White door is closed and locked.
 The matching key of the White door is the White key.
@@ -117,12 +117,16 @@ Apolo is in Living Room.
 
 Section 3.4 On the Garage
 
-Cabinet is a thing.
-Cardboard box is a thing.
-Dog whistle is a thing.
-Tool box is a thing.
+Plastic bag is a container. Plastic bag is in Garage.
+Cardboard box is a thing. Cardboard box is in Garage.
+Dog whistle is a thing. Dog whistle is in Plastic bag.
 
-Dog whistle is in Cabinet.
+Understand "whistle [something]" as whistling.
+Whistling is an action applying to one thing.
+Carry out whistling:
+	if Player is in Garage:
+		now Apolo is in the Garage;
+		say "A shrill whistle echoes through the house and you hear a dog approaching!".
 
 Section 3.5 On the Kitchen
 
@@ -137,6 +141,8 @@ Section 3.9 On the Upper Hall
 Lilie is in Upper Hall.
 
 Section 3.10 On the Large Bedroom
+
+Lilie's doll is a thing. 
 
 Section 3.11 On the Medium Bedroom
 
