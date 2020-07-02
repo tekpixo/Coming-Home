@@ -117,6 +117,13 @@ Apolo is in Living Room.
 
 Section 3.4 On the Garage
 
+Cabinet is a thing.
+Cardboard box is a thing.
+Dog whistle is a thing.
+Tool box is a thing.
+
+Dog whistle is in Cabinet.
+
 Section 3.5 On the Kitchen
 
 Section 3.6 On the Dining Room
