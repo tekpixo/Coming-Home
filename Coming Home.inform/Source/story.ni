@@ -163,6 +163,7 @@ Being Outside the House begins when play begins.
 Being Outside the House ends when player is in Hall.
 
 When Being Outside the House ends:
+	remove the main key from play;
 	Say "The door closes in a bump and the key disappears from the lock.
 		The inside smells as bad news...".
 
