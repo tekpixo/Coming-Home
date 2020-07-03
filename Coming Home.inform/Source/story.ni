@@ -127,7 +127,7 @@ Carry out whistling:
 	if Player is in Garage:
 		now Apolo is in the Garage;
 		say "A shrill whistle echoes through the house and you hear a dog approaching!";
-	otherwise if Player is in Hall:
+	otherwise:
 		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
 
 Section 3.5 On the Kitchen
