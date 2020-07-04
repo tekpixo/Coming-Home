@@ -43,7 +43,7 @@ Porch is a room.
 Hall is room. 
 
 Living Room is a room. "Descrição do Living Room."
-Garage is a room. "Descrição da Garage."
+Garage is a room. "Apparently no one's been here in weeks. In addition to a big mess and several thrown junk, you notice that the garage gate has a lever."
 Kitchen is a room. "Descrição da Kitchen."
 Dining Room is a room. "Descrição do Dining Room."
 Home Office is a room. "Descrição do Home Office."
@@ -92,6 +92,12 @@ Purple door is a door. It is north of Bathroom and south of Upper Hall. Purple d
 Heart-painted door is a door. It is west of Medium Bedroom and east of Upper Hall. Heart-painted door is closed and locked.
 The matching key of the Heart-painted door is the Heartshaped key.
 
+Section 2.3 Keys
+
+The Heartshaped key is nowhere.
+
+
+
 Chapter 3 Things
 
 Player is in Porch.  
@@ -103,8 +109,8 @@ Wooden chair is a chair. Wooden chair is in Porch.
 
 Old box is a container. Old box is in Porch.
 
-candle is a thing. string is a thing.
-candle, string are in Old box.
+candle is a thing.
+candle is in Old box.
 
 Section 3.2 On the Hall
 
@@ -120,18 +126,23 @@ Plastic bag is a container. Plastic bag is in Garage.
 Cardboard box is a thing. Cardboard box is in Garage.
 Whistle is a thing. Whistle is in Plastic bag.
 
-Understand "whistle [something]" as whistling.
-Whistling is an action applying to one thing.
-Carry out whistling:
-	if Player is in Garage:
-		now the dog is in the Garage;
-		say "A shrill whistle echoes through the house and you hear a dog approaching!";
-	otherwise if Player is in Hall:
-		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
-
 Section 3.5 On the Kitchen
 
 Section 3.6 On the Dining Room
+
+Little Box is a container.Little Box is nowhere.
+
+Understand "whistle [something]" as whistling.
+Whistling is an action applying to one thing.
+Carry out whistling:
+	if Player is in Dining Room:
+		now the dog is in the Dining Room;	
+		now Little Box is in the Dining Room;
+		now Heartshaped key is in the Little Box;
+		say "A shrill whistle echoes through the house and you hear a dog approaching!
+			Apollo suddenly starts to bark. It looks like he found something";
+	otherwise:
+		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
 
 Section 3.7 On the Home Office
 
@@ -162,6 +173,7 @@ Being Outside the House begins when play begins.
 Being Outside the House ends when player is in Hall.
 
 When Being Outside the House ends:
+	remove the main key from play;
 	Say "The door closes in a bump and the key disappears from the lock.
 		The inside smells as bad news...".
 
@@ -193,7 +205,8 @@ Josh's Introduction begins when the Player is in the Living Room for the first t
 
 [ Upper Hall ]
 Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my teddy bear? I don't go anywhere without it.... [ line break ] I don't remember where I left it, but it's probably somewhere on the second floor.'"
-Lilie's Introduction begins when the Player is in the Upper Hall for the first turn.Chapter 5 NPCs
+Lilie's Introduction begins when the Player is in the Upper Hall for the first turn.
+
 Chapter 5 NPCs
 
 Section 5.1 Noah
