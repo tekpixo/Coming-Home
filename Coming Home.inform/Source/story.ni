@@ -139,8 +139,12 @@ Instead of pulling the lever:
 	say "Noah says, 'Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.'";
 
 Before going to the Garage Exit:
-    say "That's the end of the line...";
-    end the story.
+	If lilie_was_saved is 1:
+		say "Você acorda em sua cama com o telefone tocando, ao atender você descobre que sua irmã Lilie que estava em coma por anos finalmente acordou. ";
+		end the story;
+	otherwise:
+		say "You feel a weird sensation, it seems that your body is disappearing...";
+		end the story;
 
 Section 3.5 On the Kitchen
 
@@ -202,8 +206,7 @@ EndingWereable begins when the Player wear necklace
 
 When EndingWereable begins:
 	say "You feel a weird sensation, it seems that your body is disappearing...";
-	end the story.
-
+	end the story;
 
 Section 3.12 On the Small Bedroom
 
