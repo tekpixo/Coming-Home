@@ -250,7 +250,7 @@ Instead of asking Noah about "the house", say "Noah replies, 'Well, isn't this h
 Section 5.2 Josh
 
 Instead of asking Josh about "Apolo":
-	say "He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily."
+	say "Josh'replies, 'He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily.' [line break] Hmm, maybe we could put his sniffing skills to good use."
 
 Section 5.3 Apolo
 
