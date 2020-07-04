@@ -86,7 +86,8 @@ Blue door is a door. It is east of Large Bedroom and west of Inner Bathroom. Blu
 
 Black door is a door. It is south of Large Bedroom and north of Upper Hall. Black door is closed and unlocked.
 
-Scratched door is a door. It is west of Upper Hall and east of Small Bedroom. Scratched door is closed and unlocked.
+Scratched door is a door. It is west of Upper Hall and east of Small Bedroom. Scratched door is closed and locked.
+The matching key of the scratched door is the rusty key.
 
 Purple door is a door. It is north of Bathroom and south of Upper Hall. Purple door is closed and unlocked.
 
@@ -99,6 +100,7 @@ Section 2.3 Keys
 
 The Heartshaped key is nowhere.
 
+The Rusty Key is nowhere.
 
 
 Chapter 3 Things
