@@ -179,7 +179,7 @@ EndingWereable is a scene.
 EndingWereable begins when the Player wear necklace
 
 When EndingWereable begins:
-	say "Você se sente estranho, parece que seu corpo esta desaparecendo...";
+	say "You feel a weird sensation, it seems that your body is disappearing...";
 	end the story.
 
 
