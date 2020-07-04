@@ -76,8 +76,7 @@ The matching key of the Orange door is the Orange key.
 
 Brown door is a door. it is west of Living Room and east of Garage. Brown door is closed and unlocked.
 
-White door is a door. it is west of Home Office and east of Living Room. White door is closed and locked.
-The matching key of the White door is the White key.
+White door is a door. it is west of Home Office and east of Living Room. White door is closed and unlocked.
 
 Gray door is a door. it is west of Lavabo and east of Hall. Gray door is closed and locked.
 The matching key of the Gray door is the Gray key.
@@ -168,6 +167,11 @@ Rule for printing the name of the Office table:
 	say "[printed name of Office table]";
 	omit contents in listing.
 
+Before taking the Document Folder:
+	say "You see a house plan inside the folder.";
+	Figure of HousePlanPicture is the file "house-plan.jpg"
+	Display the Figure of HousePlanPicture;
+
 Section 3.8 On the Lavabo
 
 Section 3.9 On the Upper Hall
@@ -217,7 +221,7 @@ Before taking the Main Key during Being Outside the House:
 Figure of InitialPicture is the file "house.jpg"
 	
 When play begins:
-	Display the Figure of InitialPicture ;
+	Display the Figure of InitialPicture;
 	Say "A chilling wind blows in the late afternoon.".
 
 [ Hall ]	
