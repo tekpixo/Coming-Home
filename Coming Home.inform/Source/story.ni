@@ -187,6 +187,12 @@ Section 3.11 On the Medium Bedroom
 Jewelry Case is a container. Jewelry Case is in Medium Bedroom.
 necklace is a thing. necklace is in Jewelry Case.  The necklace is wearable.
 
+
+After taking the necklace :
+	Say "Você tem uma sensação estranha a respeito deste colar. [line break]";
+	now Noah is in the Medium Bedroom;
+	say "Noah: A perfeito voce encontrou meu colar. Agora me devolva para que eu possa guarda-lo.".
+
 EndingWereable is a scene. 
 EndingWereable begins when the Player wear necklace
 
@@ -247,7 +253,7 @@ Lilie's Introduction begins when the Player is in the Upper Hall for the first t
 [ Dinning Room]
 
 DRS is a scene. "The place looks very messy. Maybe someone was looking for something here."
-DRS begins when the Player is in the Living Room for the first turn.
+DRS begins when the Player is in the Dining Room for the first turn.
 
 
 [ Medium Bedroom]
@@ -259,10 +265,16 @@ Section 5.1 Noah
 
 Instead of asking Noah about "the house", say "Noah replies, 'Well, isn't this house lovely! Feel free to explore it and enjoy your stay for as long as you like' [line break] You look around and don't seem to agree with Noah on how 'lovely' the house is., spooky would be more like it".
 
+Instead of asking Noah about "the dining room":
+	say "Noah fica em silencio e parece preocupado."
+
 Section 5.2 Josh
 
 Instead of asking Josh about "Apolo":
 	say "Josh'replies, 'He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily.' [line break] Hmm, maybe we could put his sniffing skills to good use."
+	
+Instead of asking Josh about "the dining room":
+	say "Josh:  Acho que Noah perdeu algo importante por lá, entretanto, Toda vez que o Apolo passa por lá ele fica bem agitado."
 
 Section 5.3 Apolo
 
