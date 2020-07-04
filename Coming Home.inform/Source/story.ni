@@ -76,8 +76,7 @@ The matching key of the Orange door is the Orange key.
 
 Brown door is a door. it is west of Living Room and east of Garage. Brown door is closed and unlocked.
 
-White door is a door. it is west of Home Office and east of Living Room. White door is closed and locked.
-The matching key of the White door is the White key.
+White door is a door. it is west of Home Office and east of Living Room. White door is closed and unlocked.
 
 Gray door is a door. it is west of Lavabo and east of Hall. Gray door is closed and locked.
 The matching key of the Gray door is the Gray key.
@@ -134,7 +133,7 @@ Instead of pulling the lever:
 	now Noah is in the Garage;
 	now Garage gate is unlocked;
 	say "You pull the lever and now the gate is open. Noah hears the sound of the lever and enters the garage.";
-	say "Noah: Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.";
+	say "Noah says, 'Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.'";
 
 Before going to the Garage Exit:
     say "That's the end of the line...";
@@ -159,6 +158,19 @@ Carry out whistling:
 		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
 
 Section 3.7 On the Home Office
+
+Office table is a container. Office table is in Home Office.
+Document folder is a thing. Document folder is in Office Table. 
+House plan is a thing. House plan is in Document folder.
+
+Rule for printing the name of the Office table: 
+	say "[printed name of Office table]";
+	omit contents in listing.
+
+Before taking the Document Folder:
+	say "You see a house plan inside the folder.";
+	Figure of HousePlanPicture is the file "house-plan.jpg"
+	Display the Figure of HousePlanPicture;
 
 Section 3.8 On the Lavabo
 
@@ -185,7 +197,7 @@ EndingWereable is a scene.
 EndingWereable begins when the Player wear necklace
 
 When EndingWereable begins:
-	say "Você se sente estranho, parece que seu corpo esta desaparecendo...";
+	say "You feel a weird sensation, it seems that your body is disappearing...";
 	end the story.
 
 
@@ -215,7 +227,7 @@ Before taking the Main Key during Being Outside the House:
 Figure of InitialPicture is the file "house.jpg"
 	
 When play begins:
-	Display the Figure of InitialPicture ;
+	Display the Figure of InitialPicture;
 	Say "A chilling wind blows in the late afternoon.".
 
 [ Hall ]	
@@ -235,7 +247,7 @@ Josh's Introduction is a scene. "A blind man says, 'Hey! How're you doing? I see
 Josh's Introduction begins when the Player is in the Living Room for the first turn.
 
 [ Upper Hall ]
-Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my teddy bear? I don't go anywhere without it.... [ line break ] I don't remember where I left it, but it's probably somewhere on the second floor.'"
+Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my doll? I don't go anywhere without it.... [ line break ] I don't remember where I left it, but it's probably somewhere on this floor.'"
 Lilie's Introduction begins when the Player is in the Upper Hall for the first turn.
 
 [ Dinning Room]
@@ -251,7 +263,7 @@ Chapter 5 NPCs
 
 Section 5.1 Noah
 
-Instead of asking Noah about "the house", say "Well, isn't this house lovely! Feel free to explore it and enjoy your stay for as long as you like".
+Instead of asking Noah about "the house", say "Noah replies, 'Well, isn't this house lovely! Feel free to explore it and enjoy your stay for as long as you like' [line break] You look around and don't seem to agree with Noah on how 'lovely' the house is., spooky would be more like it".
 
 Instead of asking Noah about "the dining room":
 	say "Noah fica em silencio e parece preocupado."
@@ -259,7 +271,7 @@ Instead of asking Noah about "the dining room":
 Section 5.2 Josh
 
 Instead of asking Josh about "Apolo":
-	say "He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily."
+	say "Josh'replies, 'He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily.' [line break] Hmm, maybe we could put his sniffing skills to good use."
 	
 Instead of asking Josh about "the dining room":
 	say "Josh:  Acho que Noah perdeu algo importante por lá, entretanto, Toda vez que o Apolo passa por lá ele fica bem agitado."
@@ -271,4 +283,4 @@ Understand "Apolo" as the dog.
 
 Section 5.4  Lilie
 
-Instead of asking Lilie about "the teddy bear", say "Oh, I miss him so much. He's my best friend!"	
+Instead of asking Lilie about "the doll", say "Lilie cries, 'Oh, I miss it so much. It's my best friend!'"	

@@ -10,7 +10,7 @@ This model was created many years before What Remains of Edith Finch was launche
 
 # TO-DO
 
-- **** - Aplicar efeito da vela para iluminar o Large Room (onde estará a boneca da Lilie)
+-  - Aplicar efeito da vela para iluminar o Large Room (onde estará a boneca da Lilie)
 
 - **Alexandre** - Conversas/monólogos com todos os NPC
 
@@ -20,7 +20,7 @@ This model was created many years before What Remains of Edith Finch was launche
 
 - **MISSÕES:**
   - **Douglas** - Apolo fareja chave na cozinha para um cômodo do segundo andar
-  - **Lincoln** - Jogador usa chave de fenda para abrir gaveta no Home Office
+  - **Lincoln** - 
   - **Alexandre** - 
 
 - **FINAIS:**
