@@ -44,6 +44,7 @@ Hall is room.
 
 Living Room is a room. "Descrição do Living Room."
 Garage is a room. "Apparently no one's been here in weeks. In addition to a big mess and several thrown junk, you notice that the garage gate has a lever."
+Garage Exit is a room.
 Kitchen is a room. "Descrição da Kitchen."
 Dining Room is a room. "Descrição do Dining Room."
 Home Office is a room. "Descrição do Home Office."
@@ -92,6 +93,8 @@ Purple door is a door. It is north of Bathroom and south of Upper Hall. Purple d
 Heart-painted door is a door. It is west of Medium Bedroom and east of Upper Hall. Heart-painted door is closed and locked.
 The matching key of the Heart-painted door is the Heartshaped key.
 
+Garage gate is a door. It is west of Garage and east of Garage Exit. Garage gate is closed and locked.
+
 Section 2.3 Keys
 
 The Heartshaped key is nowhere.
@@ -125,6 +128,17 @@ Section 3.4 On the Garage
 Plastic bag is a container. Plastic bag is in Garage.
 Cardboard box is a thing. Cardboard box is in Garage.
 Whistle is a thing. Whistle is in Plastic bag.
+Lever is in the Garage. The lever is fixed in place.
+
+Instead of pulling the lever:
+	now Noah is in the Garage;
+	now Garage gate is unlocked;
+	say "You pull the lever and now the gate is open. Noah hears the sound of the lever and enters the garage.";
+	say "Noah: Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.";
+
+Before going to the Garage Exit:
+    say "That's the end of the line...";
+    end the story.
 
 Section 3.5 On the Kitchen
 
@@ -157,6 +171,17 @@ Section 3.10 On the Large Bedroom
 Lilie's doll is a thing. Lilie's doll is in Large Bedroom.
 
 Section 3.11 On the Medium Bedroom
+
+Jewelry Case is a container. Jewelry Case is in Medium Bedroom.
+necklace is a thing. necklace is in Jewelry Case.  The necklace is wearable.
+
+EndingWereable is a scene. 
+EndingWereable begins when the Player wear necklace
+
+When EndingWereable begins:
+	say "Você se sente estranho, parece que seu corpo esta desaparecendo...";
+	end the story.
+
 
 Section 3.12 On the Small Bedroom
 
@@ -201,11 +226,20 @@ Noah's Introduction begins when the Player is in the Hall for the first turn.
 Bark From Living Room is a scene. "A Labrador barks. From his dog collar, you see his name must be Apolo."
 Bark From Living Room begins when the Player is in the Living Room for the first turn.
 Josh's Introduction is a scene. "A blind man says, 'Hey! How're you doing? I seem to have lost my dog whistle, it's pretty useful to call Apolo whenever he's wandering somewhere else around the house.'"
-Josh's Introduction begins when the Player is in the Living Room for the first turn.[ Upper Hall ]
+Josh's Introduction begins when the Player is in the Living Room for the first turn.
 
 [ Upper Hall ]
 Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my teddy bear? I don't go anywhere without it.... [ line break ] I don't remember where I left it, but it's probably somewhere on the second floor.'"
 Lilie's Introduction begins when the Player is in the Upper Hall for the first turn.
+
+[ Dinning Room]
+
+DRS is a scene. "The place looks very messy. Maybe someone was looking for something here."
+DRS begins when the Player is in the Living Room for the first turn.
+
+
+[ Medium Bedroom]
+
 
 Chapter 5 NPCs
 
