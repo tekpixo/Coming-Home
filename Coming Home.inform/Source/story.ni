@@ -124,7 +124,7 @@ Understand "whistle [something]" as whistling.
 Whistling is an action applying to one thing.
 Carry out whistling:
 	if Player is in Garage:
-		now Apolo is in the Garage;
+		now the dog is in the Garage;
 		say "A shrill whistle echoes through the house and you hear a dog approaching!";
 	otherwise if Player is in Hall:
 		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
