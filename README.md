@@ -21,5 +21,6 @@ This model was created many years before What Remains of Edith Finch was launche
 - Missões:
   - **Douglas** - Apolo fareja chave na cozinha para um cômodo do segundo andar
   - **Lincoln** - Jogador usa chave de fenda para abrir gaveta no Home Office
+  - **Alexandre** - 
 
 - Desenvolver ao menos 4 finais
