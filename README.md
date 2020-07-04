@@ -23,4 +23,7 @@ This model was created many years before What Remains of Edith Finch was launche
   - **Lincoln** - Jogador usa chave de fenda para abrir gaveta no Home Office
   - **Alexandre** - 
 
-- Desenvolver ao menos 4 finais
+- **FINAIS:**
+  - **Lincoln** - Usar corda na alavanca da Garagem
+  - **Douglas:** -
+  - **Alexandre:** - 
