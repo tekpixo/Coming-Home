@@ -43,7 +43,7 @@ Porch is a room.
 Hall is room. 
 
 Living Room is a room. "Descrição do Living Room."
-Garage is a room. "Descrição da Garage."
+Garage is a room. "Apparently no one's been here in weeks. In addition to a big mess and several thrown junk, you notice that the garage gate has a lever."
 Kitchen is a room. "Descrição da Kitchen."
 Dining Room is a room. "Descrição do Dining Room."
 Home Office is a room. "Descrição do Home Office."
@@ -109,8 +109,8 @@ Wooden chair is a chair. Wooden chair is in Porch.
 
 Old box is a container. Old box is in Porch.
 
-candle is a thing. string is a thing.
-candle, string are in Old box.
+candle is a thing. rope is a thing.
+candle, rope are in Old box.
 
 Section 3.2 On the Hall
 
@@ -144,7 +144,7 @@ Carry out whistling:
 			Apollo suddenly starts to bark. It looks like he found something";
 	otherwise:
 		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
-	
+
 Section 3.7 On the Home Office
 
 Section 3.8 On the Lavabo

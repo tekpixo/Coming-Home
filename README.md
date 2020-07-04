@@ -14,8 +14,16 @@ This model was created many years before What Remains of Edith Finch was launche
 
 - **Alexandre** - Conversas/monólogos com todos os NPC
 
-- Criar item do documento de reforma 
+- **Lincoln** - Criar item do documento de reforma 
 
-- Corrigir o apito para cães para só funcionar no quarto da sua missão (atualmente só funciona na Garagem)
+- **Douglas** - Corrigir o apito para cães para só funcionar no quarto da sua missão (atualmente só funciona na Garagem)
 
-- Desenvolver ao menos 4 finais
+- **MISSÕES:**
+  - **Douglas** - Apolo fareja chave na cozinha para um cômodo do segundo andar
+  - **Lincoln** - Jogador usa chave de fenda para abrir gaveta no Home Office
+  - **Alexandre** - 
+
+- **FINAIS:**
+  - **Lincoln** - Usar corda na alavanca da Garagem
+  - **Douglas** -
+  - **Alexandre** - 
