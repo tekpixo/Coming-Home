@@ -159,6 +159,17 @@ Lilie's doll is a thing. Lilie's doll is in Large Bedroom.
 
 Section 3.11 On the Medium Bedroom
 
+Jewelry Case is a container. Jewelry Case is in Medium Bedroom.
+necklace is a thing. necklace is in Jewelry Case.  The necklace is wearable.
+
+EndingWereable is a scene. 
+EndingWereable begins when the Player wear necklace
+
+When EndingWereable begins:
+	say "Você se sente estranho, parece que seu corpo esta desaparecendo...";
+	end the story.
+
+
 Section 3.12 On the Small Bedroom
 
 Section 3.13 On the Bathroom
@@ -199,3 +210,13 @@ Lilie Crying From Hall begins when the Player is in the Hall for the first turn.
 
 Bark From Living Room is a scene. "A Labradors barks to. From his dog collar, you see his name must be Apolo."
 Bark From Living Room begins when the Player is in the Living Room for the first turn.
+
+
+[ Dinning Room]
+
+DRS is a scene. "The place looks very messy. Maybe someone was looking for something here."
+DRS begins when the Player is in the Living Room for the first turn.
+
+
+[ Medium Bedroom]
+
