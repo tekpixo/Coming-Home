@@ -92,6 +92,12 @@ Purple door is a door. It is north of Bathroom and south of Upper Hall. Purple d
 Heart-painted door is a door. It is west of Medium Bedroom and east of Upper Hall. Heart-painted door is closed and locked.
 The matching key of the Heart-painted door is the Heartshaped key.
 
+Section 2.3 Keys
+
+The matching key of the White door is White key.
+The White key is nowhere.
+
+
 Chapter 3 Things
 
 Player is in Porch.  
@@ -121,19 +127,24 @@ Plastic bag is a container. Plastic bag is in Garage.
 Cardboard box is a thing. Cardboard box is in Garage.
 Dog whistle is a thing. Dog whistle is in Plastic bag.
 
-Understand "whistle [something]" as whistling.
-Whistling is an action applying to one thing.
-Carry out whistling:
-	if Player is in Garage:
-		now Apolo is in the Garage;
-		say "A shrill whistle echoes through the house and you hear a dog approaching!";
-	otherwise:
-		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
-
 Section 3.5 On the Kitchen
 
 Section 3.6 On the Dining Room
 
+Little Box is a container.Little Box is nowhere.
+
+Understand "whistle [something]" as whistling.
+Whistling is an action applying to one thing.
+Carry out whistling:
+	if Player is in Dining Room:
+		now Apolo is in the Dining Room;	
+		now Little Box is in the Dining Room;
+		now White key is in the Little Box;
+		say "A shrill whistle echoes through the house and you hear a dog approaching!
+			Apollo suddenly starts to bark. It looks like he found something";
+	otherwise:
+		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
+	
 Section 3.7 On the Home Office
 
 Section 3.8 On the Lavabo
