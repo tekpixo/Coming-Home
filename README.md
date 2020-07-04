@@ -25,5 +25,5 @@ This model was created many years before What Remains of Edith Finch was launche
 
 - **FINAIS:**
   - **Lincoln** - Usar corda na alavanca da Garagem
-  - **Douglas:** -
-  - **Alexandre:** - 
+  - **Douglas** -
+  - **Alexandre** - 
