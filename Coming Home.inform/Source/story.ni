@@ -44,6 +44,7 @@ Hall is room.
 
 Living Room is a room. "Descrição do Living Room."
 Garage is a room. "Apparently no one's been here in weeks. In addition to a big mess and several thrown junk, you notice that the garage gate has a lever."
+Garage Exit is a room.
 Kitchen is a room. "Descrição da Kitchen."
 Dining Room is a room. "Descrição do Dining Room."
 Home Office is a room. "Descrição do Home Office."
@@ -92,6 +93,8 @@ Purple door is a door. It is north of Bathroom and south of Upper Hall. Purple d
 Heart-painted door is a door. It is west of Medium Bedroom and east of Upper Hall. Heart-painted door is closed and locked.
 The matching key of the Heart-painted door is the Heartshaped key.
 
+Garage gate is a door. It is west of Garage and east of Garage Exit. Garage gate is closed and locked.
+
 Section 2.3 Keys
 
 The Heartshaped key is nowhere.
@@ -126,6 +129,17 @@ Section 3.4 On the Garage
 Plastic bag is a container. Plastic bag is in Garage.
 Cardboard box is a thing. Cardboard box is in Garage.
 Dog whistle is a thing. Dog whistle is in Plastic bag.
+Lever is in the Garage. The lever is fixed in place.
+
+Instead of pulling the lever:
+	now Noah is in the Garage;
+	now Garage gate is unlocked;
+	say "You pull the lever and now the gate is open. Noah hears the sound of the lever and enters the garage.";
+	say "Noah: Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.";
+
+Before going to the Garage Exit:
+    say "That's the end of the line...";
+    end the story.
 
 Section 3.5 On the Kitchen
 
