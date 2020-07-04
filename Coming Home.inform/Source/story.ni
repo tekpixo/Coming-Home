@@ -193,4 +193,22 @@ Josh's Introduction begins when the Player is in the Living Room for the first t
 
 [ Upper Hall ]
 Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my teddy bear? I don't go anywhere without it.... [ line break ] I don't remember where I left it, but it's probably somewhere on the second floor.'"
-Lilie's Introduction begins when the Player is in the Upper Hall for the first turn.
+Lilie's Introduction begins when the Player is in the Upper Hall for the first turn.Chapter 5 NPCs
+
+Section 5.1 Noah
+
+Instead of asking Noah about "the house", say "Well, isn't this house lovely! Feel free to explore it and enjoy your stay for as long as you like".
+
+Section 5.2 Josh
+
+Instead of asking Josh about "Apolo":
+	say "He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily."
+
+Section 5.3 Apolo
+
+The dog is an animal in the Living Room. 
+Understand "Apolo" as the dog.
+
+Section 5.4  Lilie
+
+Instead of asking Lilie about "the teddy bear", say "Oh, I miss him so much. He's my best friend!"	
