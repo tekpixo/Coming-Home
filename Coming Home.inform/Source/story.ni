@@ -292,3 +292,9 @@ Understand "Apolo" as the dog.
 Section 5.4  Lilie
 
 Instead of asking Lilie about "the doll", say "Lilie cries, 'Oh, I miss it so much. It's my best friend!'"	
+
+
+Instead of giving a necklace to Lilie:
+  Say "Assim que Lilie coloca o colar em seu pescoço um som estranho começa a ecoar pela casa e uma névoa lilás começa a envolver o corpo de Lilie que começa a desaparecer lentamente.  [line break]Lilie: Não se preocupe, me sinto melhor agora.  [line break]Lilie desaparece completamente. Espantado com oque viu você se pergunta se ela está bem.";
+  Now necklace is nowhere;
+  Now Lilie is nowhere.
