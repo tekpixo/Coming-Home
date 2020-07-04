@@ -104,6 +104,8 @@ Chapter 3 Things
 
 Player is in Porch.  
 
+Understand "give [things] to [someone]" as giving it to.
+
 Section 3.1 On the Porch
 
 Main key is in Porch.
@@ -268,6 +270,11 @@ Instead of asking Noah about "the house", say "Noah replies, 'Well, isn't this h
 
 Instead of asking Noah about "the dining room":
 	say "Noah fica em silencio e parece preocupado."
+	
+
+Instead of giving a necklace to Noah:
+  Say "Noah pega rapidamente o [the necklace] sorri e o guarda.";
+  Now necklace is nowhere;
 
 Section 5.2 Josh
 
