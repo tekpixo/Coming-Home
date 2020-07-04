@@ -8,6 +8,7 @@ A staircase is a kind of door. A staircase is usually open. A staircase is seldo
 Instead of climbing a staircase: 
     try entering the noun. 
 
+
 Section 2.1 Chairs
 
 A chair is a kind of supporter that is enterable with carrying capacity 1. 
@@ -293,8 +294,11 @@ Section 5.4  Lilie
 
 Instead of asking Lilie about "the doll", say "Lilie cries, 'Oh, I miss it so much. It's my best friend!'"	
 
+The lilie_was_saved is a number which varies.
+the lilie_was_saved is initially 0.
 
 Instead of giving a necklace to Lilie:
   Say "Assim que Lilie coloca o colar em seu pescoço um som estranho começa a ecoar pela casa e uma névoa lilás começa a envolver o corpo de Lilie que começa a desaparecer lentamente.  [line break]Lilie: Não se preocupe, me sinto melhor agora.  [line break]Lilie desaparece completamente. Espantado com oque viu você se pergunta se ela está bem.";
   Now necklace is nowhere;
-  Now Lilie is nowhere.
+  Now Lilie is nowhere;
+  now lilie_was_saved is 1.
