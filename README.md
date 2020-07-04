@@ -19,6 +19,6 @@ This model was created many years before What Remains of Edith Finch was launche
 - Corrigir o apito para cães para só funcionar no quarto da sua missão (atualmente só funciona na Garagem)
 
 - Missões:
-  - **Douglas** - Apolo fareja chave no segundo andar para um côomdo do primeiro andar
+  - **Douglas** - Apolo fareja chave na cozinha para um cômodo do segundo andar
 
 - Desenvolver ao menos 4 finais
