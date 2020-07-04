@@ -160,6 +160,14 @@ Carry out whistling:
 
 Section 3.7 On the Home Office
 
+Office table is a container. Office table is in Home Office.
+Document folder is a thing. Document folder is in Office Table. 
+House plan is a thing. House plan is in Document folder.
+
+Rule for printing the name of the Office table: 
+	say "[printed name of Office table]";
+	omit contents in listing.
+
 Section 3.8 On the Lavabo
 
 Section 3.9 On the Upper Hall
