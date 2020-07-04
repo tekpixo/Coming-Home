@@ -134,7 +134,7 @@ Instead of pulling the lever:
 	now Noah is in the Garage;
 	now Garage gate is unlocked;
 	say "You pull the lever and now the gate is open. Noah hears the sound of the lever and enters the garage.";
-	say "Noah: Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.";
+	say "Noah says, 'Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.'";
 
 Before going to the Garage Exit:
     say "That's the end of the line...";
