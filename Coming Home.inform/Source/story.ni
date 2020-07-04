@@ -118,7 +118,7 @@ Section 3.4 On the Garage
 
 Plastic bag is a container. Plastic bag is in Garage.
 Cardboard box is a thing. Cardboard box is in Garage.
-Dog whistle is a thing. Dog whistle is in Plastic bag.
+Whistle is a thing. Whistle is in Plastic bag.
 
 Understand "whistle [something]" as whistling.
 Whistling is an action applying to one thing.
