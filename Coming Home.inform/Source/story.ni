@@ -108,12 +108,11 @@ candle, string are in Old box.
 
 Section 3.2 On the Hall
 
-Noah is in Hall.
+Noah is a man in Hall.
 
 Section 3.3 On the Living Room
 
-Josh is in Living Room.
-Apolo is in Living Room.
+Josh is a man in Living Room.
 
 Section 3.4 On the Garage
 
@@ -140,7 +139,7 @@ Section 3.8 On the Lavabo
 
 Section 3.9 On the Upper Hall
 
-Lilie is in Upper Hall.
+Lilie is a woman in Upper Hall.
 
 Section 3.10 On the Large Bedroom
 
