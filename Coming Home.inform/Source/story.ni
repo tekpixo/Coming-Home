@@ -48,7 +48,7 @@ Kitchen is a room. "Descrição da Kitchen."
 Dining Room is a room. "Descrição do Dining Room."
 Home Office is a room. "Descrição do Home Office."
 Lavabo is a room. "Descrição do lavabo."
-Stairs is a staircase. It is above Hall and below Upper Hall.
+Stairs is a staircase. It is above Hall and below Upper Hall. "Descrição do Staircase."
 Upper Hall is a room. "Descrição do Upper Hall."
 Large Bedroom is a room. "A really large and messy room."
 Medium Bedroom is a room. "Descrição do Medium Bedroom."
