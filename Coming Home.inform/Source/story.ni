@@ -194,6 +194,7 @@ Josh's Introduction begins when the Player is in the Living Room for the first t
 [ Upper Hall ]
 Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my teddy bear? I don't go anywhere without it.... [ line break ] I don't remember where I left it, but it's probably somewhere on the second floor.'"
 Lilie's Introduction begins when the Player is in the Upper Hall for the first turn.Chapter 5 NPCs
+Chapter 5 NPCs
 
 Section 5.1 Noah
 
