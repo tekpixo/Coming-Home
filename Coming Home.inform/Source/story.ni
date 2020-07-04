@@ -163,13 +163,14 @@ Office table is a container. Office table is in Home Office.
 Document folder is a thing. Document folder is in Office Table. 
 House plan is a thing. House plan is in Document folder.
 
+Figure of HousePlanPicture is the file "house-plan.jpg"
+
 Rule for printing the name of the Office table: 
 	say "[printed name of Office table]";
 	omit contents in listing.
 
 Before taking the Document Folder:
 	say "You see a house plan inside the folder.";
-	Figure of HousePlanPicture is the file "house-plan.jpg"
 	Display the Figure of HousePlanPicture;
 
 Section 3.8 On the Lavabo
