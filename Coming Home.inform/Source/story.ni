@@ -130,6 +130,15 @@ Carry out whistling:
 	otherwise:
 		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
 
+Understand "tye [something] on [something]" as tying.
+Tying is an action applying to one thing.
+Carry out tying:
+	if Player is in Garage:
+		remove the rope from play;
+		say "You tie the rope to the gate lever and notice that the gate has opened a few inches.";
+	otherwise:
+		say "Nothing interesting happens. You should try it somewhere else.".
+
 Section 3.5 On the Kitchen
 
 Section 3.6 On the Dining Room
