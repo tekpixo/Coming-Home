@@ -310,7 +310,21 @@ Understand "Apolo" as the dog.
 
 Section 5.4  Lilie
 
-Instead of asking Lilie about "the doll", say "Lilie cries, 'Oh, I miss it so much. It's my best friend!'"	
+The lilie_has_doll is a number which varies.
+the lilie_has doll is initially 0.
+
+Instead of asking Lilie about "the doll":
+	If lilie_has_doll is 0:
+		say "Lilie cries, 'Oh, I miss it so much. It's my best friend!'";
+	otherwise:
+		say "Lilie says, 'Thanks again for finding my doll!'".
+
+instead of giving lilie's doll to Lilie:
+	say "Lilie exclaims, 'Thank you very very much! I found a key around the house the other day, I'm not sure where to use it but it might come in handy.' [line break] Lilie gives you the key,";
+	now rusty key is in Upper Hall;
+	now lilie's doll is nowhere;
+	try taking the rusty key.
+	
 
 The lilie_was_saved is a number which varies.
 the lilie_was_saved is initially 0.
