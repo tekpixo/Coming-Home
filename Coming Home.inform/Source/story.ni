@@ -265,6 +265,8 @@ DRS begins when the Player is in the Dining Room for the first turn.
 
 [ Medium Bedroom]
 
+MBS is a scene. "When you enter the room you notice a strange purple light coming from the jewelry case."
+MBS begins when the Player is in the Medium Bedroom for the first turn.
 
 Chapter 5 NPCs
 
@@ -273,11 +275,14 @@ Section 5.1 Noah
 Instead of asking Noah about "the house", say "Noah replies, 'Well, isn't this house lovely! Feel free to explore it and enjoy your stay for as long as you like' [line break] You look around and don't seem to agree with Noah on how 'lovely' the house is., spooky would be more like it".
 
 Instead of asking Noah about "the dining room":
-	say "Noah fica em silencio e parece preocupado."
+	say "Noah is silent and looks concerned."
+
+Instead of asking Noah about "the necklace":
+	say "Noah: It is mine!! give me back!"
 	
 
 Instead of giving a necklace to Noah:
-  Say "Noah pega rapidamente o [the necklace] sorri e o guarda.";
+  Say "Noah quickly picks up the [the necklace] smiles and makes the necklace suddenly disappear.[line break]";
   Now necklace is nowhere;
 
 Section 5.2 Josh
