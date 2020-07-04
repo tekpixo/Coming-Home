@@ -109,8 +109,8 @@ Wooden chair is a chair. Wooden chair is in Porch.
 
 Old box is a container. Old box is in Porch.
 
-candle is a thing. rope is a thing.
-candle, rope are in Old box.
+candle is a thing.
+candle is in Old box.
 
 Section 3.2 On the Hall
 
