@@ -298,7 +298,7 @@ Instead of giving a necklace to Noah:
 Section 5.2 Josh
 
 Instead of asking Josh about "Apolo":
-	say "Josh'replies, 'He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily.' [line break] Hmm, maybe we could put his sniffing skills to good use."
+	say "Josh replies, 'He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily.' [line break] Hmm, maybe we could put his sniffing skills to good use."
 	
 Instead of asking Josh about "the dining room":
 	say "Josh: I think Noah missed something important over there. By the way Whenever Apollo passes by, he gets very agitated."
