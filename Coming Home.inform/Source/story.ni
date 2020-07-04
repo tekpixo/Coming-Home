@@ -162,7 +162,7 @@ Carry out whistling:
 		now Little Box is in the Dining Room;
 		now Heartshaped key is in the Little Box;
 		say "A shrill whistle echoes through the house and you hear a dog approaching!
-			Apollo suddenly starts to bark. It looks like he found something";
+			Apollo suddenly starts to bark. It looks like he found something in a Little Box";
 	otherwise:
 		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
 
@@ -199,9 +199,12 @@ necklace is a thing. necklace is in Jewelry Case.  The necklace is wearable.
 
 
 After taking the necklace :
-	Say "You have a strange feeling about this necklace. [line break]";
+	Say "You have a strange feeling about this necklace as if it were familiar to you. [line break] Maybe someone knows about it.";
 	now Noah is in the Medium Bedroom;
-	say "Noah: The perfect you found my necklace. Now give it back to me so I can keep it.".
+	say "Noah demands, 'You found my necklace, perfect! Now give it back to me so I can keep it.'".
+	
+Instead of examining the necklace:
+	Say "The necklace is glowing with a purple color,  it looks like he's the catalyst for some kind of magic".
 
 EndingWereable is a scene. 
 EndingWereable begins when the Player wear necklace
@@ -269,7 +272,7 @@ Lilie's Introduction begins when the Player is in the Upper Hall for the first t
 
 [ Dinning Room]
 
-DRS is a scene. "The place looks very messy. Maybe someone was looking for something here."
+DRS is a scene. "The place looks very messy. It is like someone was looking for something here. Maybe you should ask someone about the dining room to find out what happened".
 DRS begins when the Player is in the Dining Room for the first turn.
 
 
@@ -301,7 +304,7 @@ Instead of asking Josh about "Apolo":
 	say "Josh replies, 'He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily.' [line break] Hmm, maybe we could put his sniffing skills to good use."
 	
 Instead of asking Josh about "the dining room":
-	say "Josh: I think Noah missed something important over there. By the way Whenever Apollo passes by, he gets very agitated."
+	say "Josh ponders, 'I think Noah missed something important over there. By the way whenever Apollo passes by, he gets very agitated.'"
 
 Section 5.3 Apolo
 
@@ -325,12 +328,17 @@ instead of giving lilie's doll to Lilie:
 	now lilie's doll is nowhere;
 	try taking the rusty key.
 	
+Instead of asking Lilie about "the necklace":
+	say "Lilie: asks, 'Did you find it? Please give it back to me, this is tied to the last memory I have of my family.'"
+	
+Instead of asking Lilie about "the dining room":
+	say "Lilie explains, 'I lost the necklace my brother gave me there, Noah said he would help me find it. It is has a deep emotional value to my family.'"
 
 The lilie_was_saved is a number which varies.
 the lilie_was_saved is initially 0.
 
 Instead of giving a necklace to Lilie:
-  Say "As soon as Lilie puts the necklace around her neck, a strange sound starts to echo around the house and a purple mist begins to envelop Lilie's body which begins to disappear slowly.  [line break]Lilie: Don't worry, I feel better now.  [line break]Lilie disappears completely.[line break]Amazed at what you saw, you wonder if she's really okay.";
+  Say "As soon as Lilie puts the necklace around her neck, a strange sound starts to echo around the house and a purple mist begins to envelop Lilie's body which begins to disappear slowly.  [line break]Lilie says, Don't worry, I feel better now. ''' [line break]Lilie disappears completely.[line break]Amazed at what you saw, you wonder if she's really okay.";
   Now necklace is nowhere;
   Now Lilie is nowhere;
   now lilie_was_saved is 1.
