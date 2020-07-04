@@ -16,7 +16,7 @@ This model was created many years before What Remains of Edith Finch was launche
 
 - **Lincoln** - Criar item do documento de reforma 
 
-- Corrigir o apito para cães para só funcionar no quarto da sua missão (atualmente só funciona na Garagem)
+- **Douglas** - Corrigir o apito para cães para só funcionar no quarto da sua missão (atualmente só funciona na Garagem)
 
 - Missões:
   - **Douglas** - Apolo fareja chave na cozinha para um cômodo do segundo andar
