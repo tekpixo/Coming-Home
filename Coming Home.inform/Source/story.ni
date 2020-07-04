@@ -245,7 +245,7 @@ Chapter 5 NPCs
 
 Section 5.1 Noah
 
-Instead of asking Noah about "the house", say "Well, isn't this house lovely! Feel free to explore it and enjoy your stay for as long as you like".
+Instead of asking Noah about "the house", say "Noah replies, 'Well, isn't this house lovely! Feel free to explore it and enjoy your stay for as long as you like' [line break] You look around and don't seem to agree with Noah on how 'lovely' the house is., spooky would be more like it".
 
 Section 5.2 Josh
 
