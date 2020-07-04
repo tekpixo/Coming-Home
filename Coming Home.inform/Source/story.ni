@@ -259,4 +259,4 @@ Understand "Apolo" as the dog.
 
 Section 5.4  Lilie
 
-Instead of asking Lilie about "the doll", say "Oh, I miss it so much. It's my best friend!"	
+Instead of asking Lilie about "the doll", say "Lilie cries, 'Oh, I miss it so much. It's my best friend!'"	
