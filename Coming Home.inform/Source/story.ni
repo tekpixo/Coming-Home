@@ -160,7 +160,7 @@ Carry out whistling:
 		now Little Box is in the Dining Room;
 		now Heartshaped key is in the Little Box;
 		say "A shrill whistle echoes through the house and you hear a dog approaching!
-			Apollo suddenly starts to bark. It looks like he found something";
+			Apollo suddenly starts to bark. It looks like he found something in a Little Box";
 	otherwise:
 		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
 
@@ -197,9 +197,12 @@ necklace is a thing. necklace is in Jewelry Case.  The necklace is wearable.
 
 
 After taking the necklace :
-	Say "You have a strange feeling about this necklace. [line break]";
+	Say "You have a strange feeling about this necklace as if it were familiar to you. [line break] Maybe someone knows about it.";
 	now Noah is in the Medium Bedroom;
 	say "Noah: The perfect you found my necklace. Now give it back to me so I can keep it.".
+	
+Instead of examining the necklace:
+	Say "The necklace is glowing with a purple color,  it looks like he's the catalyst for some kind of magic".
 
 EndingWereable is a scene. 
 EndingWereable begins when the Player wear necklace
@@ -259,7 +262,7 @@ Lilie's Introduction begins when the Player is in the Upper Hall for the first t
 
 [ Dinning Room]
 
-DRS is a scene. "The place looks very messy. Maybe someone was looking for something here."
+DRS is a scene. "The place looks very messy. It is like someone was looking for something here. Maybe you should ask someone about the dining room to find out what happened".
 DRS begins when the Player is in the Dining Room for the first turn.
 
 
@@ -291,7 +294,7 @@ Instead of asking Josh about "Apolo":
 	say "Josh'replies, 'He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily.' [line break] Hmm, maybe we could put his sniffing skills to good use."
 	
 Instead of asking Josh about "the dining room":
-	say "Josh: I think Noah missed something important over there. By the way Whenever Apollo passes by, he gets very agitated."
+	say "Josh: I think Noah missed something important over there. By the way whenever Apollo passes by, he gets very agitated."
 
 Section 5.3 Apolo
 
@@ -299,6 +302,13 @@ The dog is an animal in the Living Room.
 Understand "Apolo" as the dog.
 
 Section 5.4  Lilie
+
+	
+Instead of asking Lilie about "the necklace":
+	say "Lilie: Did you found it? Please give me back, this is my family's last memory."
+	
+Instead of asking Lilie about "the dining room":
+	say "Lilie: I lost the necklace my brother gave me there, Noah said he would help me find it. It is the only reminder my family has left over."
 
 Instead of asking Lilie about "the doll", say "Lilie cries, 'Oh, I miss it so much. It's my best friend!'"	
 
