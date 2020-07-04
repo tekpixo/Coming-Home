@@ -177,12 +177,20 @@ When play begins:
 
 [ Hall ]	
 
+Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! it's been a while since our we've had a visitor. Make yourself comfortable.'"
 Bark From Hall is a scene. "You hear a bark coming from the Red door."
 Lilie Crying From Hall is a scene. "Someone is crying upstairs."
 Bark From Hall begins when the Player is in the Hall for the first turn.	
-Lilie Crying From Hall begins when the Player is in the Hall for the first turn.	
+Lilie Crying From Hall begins when the Player is in the Hall for the first turn.
+Noah's Introduction begins when the Player is in the Hall for the first turn.
 	
 [ Living Room ]
 
-Bark From Living Room is a scene. "A Labradors barks to. From his dog collar, you see his name must be Apolo."
+Bark From Living Room is a scene. "A Labrador barks. From his dog collar, you see his name must be Apolo."
 Bark From Living Room begins when the Player is in the Living Room for the first turn.
+Josh's Introduction is a scene. "A blind man says, 'Hey! How're you doing? I seem to have lost my dog whistle, it's pretty useful to call Apolo whenever he's wandering somewhere else around the house.'"
+Josh's Introduction begins when the Player is in the Living Room for the first turn.[ Upper Hall ]
+
+[ Upper Hall ]
+Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my teddy bear? I don't go anywhere without it.... [ line break ] I don't remember where I left it, but it's probably somewhere on the second floor.'"
+Lilie's Introduction begins when the Player is in the Upper Hall for the first turn.
