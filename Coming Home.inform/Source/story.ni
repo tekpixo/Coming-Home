@@ -94,8 +94,8 @@ The matching key of the Heart-painted door is the Heartshaped key.
 
 Section 2.3 Keys
 
-The matching key of the White door is White key.
-The White key is nowhere.
+The Heartshaped key is nowhere.
+
 
 
 Chapter 3 Things
@@ -139,7 +139,7 @@ Carry out whistling:
 	if Player is in Dining Room:
 		now Apolo is in the Dining Room;	
 		now Little Box is in the Dining Room;
-		now White key is in the Little Box;
+		now Heartshaped key is in the Little Box;
 		say "A shrill whistle echoes through the house and you hear a dog approaching!
 			Apollo suddenly starts to bark. It looks like he found something";
 	otherwise:
