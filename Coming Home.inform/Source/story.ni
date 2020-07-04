@@ -229,7 +229,7 @@ Josh's Introduction is a scene. "A blind man says, 'Hey! How're you doing? I see
 Josh's Introduction begins when the Player is in the Living Room for the first turn.
 
 [ Upper Hall ]
-Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my teddy bear? I don't go anywhere without it.... [ line break ] I don't remember where I left it, but it's probably somewhere on the second floor.'"
+Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my doll? I don't go anywhere without it.... [ line break ] I don't remember where I left it, but it's probably somewhere on this floor.'"
 Lilie's Introduction begins when the Player is in the Upper Hall for the first turn.
 
 [ Dinning Room]
@@ -259,4 +259,4 @@ Understand "Apolo" as the dog.
 
 Section 5.4  Lilie
 
-Instead of asking Lilie about "the teddy bear", say "Oh, I miss him so much. He's my best friend!"	
+Instead of asking Lilie about "the doll", say "Oh, I miss it so much. It's my best friend!"	
