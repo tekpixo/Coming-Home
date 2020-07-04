@@ -212,6 +212,14 @@ When EndingWereable begins:
 
 Section 3.12 On the Small Bedroom
 
+TV is a thing. TV is in Small Bedroom.
+
+Understand "television" as TV.
+
+Instead of examining TV:
+	say "A figure appears from within the TV screen, screaming so loud the window's glass shatters. As it approaches, you can tell it's a ghost, and the noise becomes increasingly loud until... you wake up, noticing it was all a dream and the loud, annoying noise was just your alarm.";
+	end the story; 
+
 Section 3.13 On the Bathroom
 
 Section 3.14 On the Inner Bathroom
