@@ -140,10 +140,10 @@ Instead of pulling the lever:
 
 Before going to the Garage Exit:
 	If lilie_was_saved is 1:
-		say "Você acorda em sua cama com o telefone tocando, ao atender você descobre que sua irmã Lilie que estava em coma por anos finalmente acordou. ";
+		say "You wake up in your bed with the phone ringing, when you answer you find that your sister Lilie who has been in a coma for years has finally woken up and wants to see you.";
 		end the story;
 	otherwise:
-		say "You feel a weird sensation, it seems that your body is disappearing...";
+		say "You feel a weird sensation, it seems that your body is disappearing.[line break] You wake up in your bed and realizes that all of this was just a dream.";
 		end the story;
 
 Section 3.5 On the Kitchen
@@ -197,15 +197,15 @@ necklace is a thing. necklace is in Jewelry Case.  The necklace is wearable.
 
 
 After taking the necklace :
-	Say "Você tem uma sensação estranha a respeito deste colar. [line break]";
+	Say "You have a strange feeling about this necklace. [line break]";
 	now Noah is in the Medium Bedroom;
-	say "Noah: A perfeito voce encontrou meu colar. Agora me devolva para que eu possa guarda-lo.".
+	say "Noah: The perfect you found my necklace. Now give it back to me so I can keep it.".
 
 EndingWereable is a scene. 
 EndingWereable begins when the Player wear necklace
 
 When EndingWereable begins:
-	say "You feel a weird sensation, it seems that your body is disappearing...";
+	say "You feel a weird sensation, it seems that your body is disappearing.[line break] You wake up in your bed and realizes that all of this was just a dream.";
 	end the story;
 
 Section 3.12 On the Small Bedroom
@@ -286,7 +286,7 @@ Instead of asking Josh about "Apolo":
 	say "Josh'replies, 'He's such a loyal fellow. He's always sniffing around the house, and he can pick up scents quite easily.' [line break] Hmm, maybe we could put his sniffing skills to good use."
 	
 Instead of asking Josh about "the dining room":
-	say "Josh:  Acho que Noah perdeu algo importante por lá, entretanto, Toda vez que o Apolo passa por lá ele fica bem agitado."
+	say "Josh: I think Noah missed something important over there. By the way Whenever Apollo passes by, he gets very agitated."
 
 Section 5.3 Apolo
 
@@ -301,7 +301,7 @@ The lilie_was_saved is a number which varies.
 the lilie_was_saved is initially 0.
 
 Instead of giving a necklace to Lilie:
-  Say "Assim que Lilie coloca o colar em seu pescoço um som estranho começa a ecoar pela casa e uma névoa lilás começa a envolver o corpo de Lilie que começa a desaparecer lentamente.  [line break]Lilie: Não se preocupe, me sinto melhor agora.  [line break]Lilie desaparece completamente. Espantado com oque viu você se pergunta se ela está bem.";
+  Say "As soon as Lilie puts the necklace around her neck, a strange sound starts to echo around the house and a purple mist begins to envelop Lilie's body which begins to disappear slowly.  [line break]Lilie: Don't worry, I feel better now.  [line break]Lilie disappears completely.[line break]Amazed at what you saw, you wonder if she's really okay.";
   Now necklace is nowhere;
   Now Lilie is nowhere;
   now lilie_was_saved is 1.
