@@ -14,7 +14,7 @@ This model was created many years before What Remains of Edith Finch was launche
 
 - **Alexandre** - Conversas/monólogos com todos os NPC
 
-- **Lincoln** - Criar item do documento de reforma 
+- **Lincoln** - ~~Criar item do documento de reforma~~
 
 - **Douglas** - Corrigir o apito para cães para só funcionar no quarto da sua missão (atualmente só funciona na Garagem)
 
