@@ -34,7 +34,7 @@ Carry out sitting on a chair:
 	silently try entering the noun.
 
 Report sitting on a chair:
-	say "You feel confortable".
+	say "You feel comfortable.".
 
 Chapter 2 Geography
 
@@ -120,7 +120,7 @@ Noah is a man in Hall.
 
 Figure of HallPicture is the file "hall.jpg".
 
-After going to the Hall:
+Before going to the Hall:
 	Display the Figure of HallPicture.
 
 Section 3.3 On the Living Room
@@ -134,20 +134,24 @@ Cardboard box is a thing. Cardboard box is in Garage.
 Whistle is a thing. Whistle is in Plastic bag.
 Lever is in the Garage. The lever is fixed in place.
 
+Rule for printing the name of the Plastic bag: 
+	say "[printed name of Plastic bag]";
+	omit contents in listing.
+
 Figure of GaragePicture is the file "garage.jpg".
 
-After going to the Garage:
+Before going to the Garage:
 	Display the Figure of GaragePicture.
 
 Before pulling the lever:
 	if Garage gate is locked:
 		now Noah is in the Garage;
 		now Garage gate is unlocked;
-		say "You pull the lever and now the gate is open. Noah hears the sound of the lever and enters the garage.";
-		say "Noah says, 'Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.'";
+		say "You pull the lever and now the gate is open. Noah hears the sound of the lever and enters the garage.
+		[ line break ] Noah says, 'Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.'";
 	otherwise:
 		now Garage gate is locked;
-		say "Noah says, 'Wise decision. Now let's go back to the other rooms, you have a lot of things to explore.'" 
+		say "Noah replies, 'Wise decision. Now let's go back to the other rooms, I'm sure you have a lot of things to explore before you leave.'" 
 
 After going to the Garage Exit:
 	If lilie_was_saved is 1:
@@ -161,7 +165,7 @@ Section 3.5 On the Kitchen
 
 Section 3.6 On the Dining Room
 
-Little Box is a container.Little Box is nowhere.
+Little Box is a container. Little Box is nowhere.
 
 Understand "whistle [something]" as whistling.
 Whistling is an action applying to one thing.
