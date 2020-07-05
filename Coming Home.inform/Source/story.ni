@@ -380,7 +380,7 @@ instead of giving lilie's doll to Lilie:
 	try taking the rusty key.
 	
 Instead of asking Lilie about "the necklace":
-	say "Lilie: asks, 'Did you find it? Please give it back to me, this is tied to the last memory I have of my family.'"
+	say "Lilie asks, 'Did you find it? Please give it back to me, this is tied to the last memory I have of my family.'"
 	
 Instead of asking Lilie about "the dining room":
 	say "Lilie explains, 'I lost the necklace my brother gave me there, Noah said he would help me find it. It is has a deep emotional value to my family.'"
