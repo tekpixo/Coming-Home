@@ -227,7 +227,10 @@ When EndingWereable begins:
 
 Section 3.12 On the Small Bedroom
 
-TV is a thing. TV is in Small Bedroom.
+TV is a device. TV is switched on. TV is in Small Bedroom.
+
+Instead of switching off TV:
+	say "The TV's power button doesn't work, it doesn't even seem to be connected to an outlet. It seems to be getting its energy from a supernatural source"
 
 Understand "television" as TV.
 
