@@ -353,6 +353,9 @@ Instead of asking Josh about "Apolo":
 	
 Instead of asking Josh about "the dining room":
 	say "Josh ponders, 'I think Noah missed something important over there. By the way whenever Apollo passes by, he gets very agitated.'"
+	
+Instead of asking Josh about "the necklace":
+	say "Josh chuckles, 'I didn't see anything, of course but I overheard Noah mentioning he hid it somewhere on the second floor.'"
 
 Section 5.3 Apolo
 
