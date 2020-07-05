@@ -42,10 +42,11 @@ Section 2.1 The House
 
 Porch is a room.
 Hall is room.
+
 Living Room is a room. "Descrição do Living Room."
 Garage is a room. "Apparently no one's been here in weeks. In addition to a big mess and several thrown junk, you notice that the garage gate has a lever."
 Garage Exit is a room.
-Kitchen is a room. "You can only say that this is a kitchen due to the appliances. "
+Kitchen is a room. "You can only say that this is a kitchen due to the appliances."
 Dining Room is a room. "A creaky floor and the sound of loud, pacing footsteps coming from the floor above give this room's ambience an eerie tone."
 Home Office is a room. "Arguably the best kept room you have visited in this house so far (which isn't much of an accomplishment). Everything seems to be neatly placed."
 Lavabo is a room. "There is nothing special here, it is just a spooky lavabo like the whole house."
@@ -258,7 +259,7 @@ When play begins:
 
 [ Hall ]	
 
-Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! It's been a while since our we've had a visitor. You are new here so make yourself comfortable. '"
+Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! It's been a while since our we've had a visitor. You are new here so make yourself comfortable.'"
 Bark From Hall is a scene. "You hear a bark coming from the Red door."
 Lilie Crying From Hall is a scene. "Someone is crying upstairs."
 Bark From Hall begins when the Player is in the Hall for the first turn.	
