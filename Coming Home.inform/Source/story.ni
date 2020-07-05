@@ -317,6 +317,9 @@ Instead of asking Noah about "the dining room":
 Instead of asking Noah about "the necklace":
 	say "Noah exclaims, 'It's mine!! Give it back to me!'"
 
+Instead of asking Noah about "the TV":
+	say "Noah says, 'I'm telling you, do yourself a favor and stay away from it.'"
+
 Instead of giving a necklace to Noah:
   Say "Noah quickly picks up the [the necklace] smiles and makes the necklace suddenly disappear.[line break]";
   Now necklace is nowhere;
