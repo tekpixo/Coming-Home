@@ -259,7 +259,7 @@ When play begins:
 
 [ Hall ]	
 
-Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! It's been a while since our we've had a visitor. You are new here so make yourself comfortable.'"
+Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! It's been a while since we've seen anyone new around here. [ line break ] This house has two floors, the rooms are in the second and here in the first we have the garage, kitchen, office, and some others that you will discover with time. .There is a few people walking around. [ line break ] You are new here so make yourself comfortable.'"
 Bark From Hall is a scene. "You hear a bark coming from the Red door."
 Lilie Crying From Hall is a scene. "Someone is crying upstairs."
 Bark From Hall begins when the Player is in the Hall for the first turn.	
