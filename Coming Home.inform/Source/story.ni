@@ -53,13 +53,8 @@ Lavabo is a room. "There is nothing special here, it is just a spooky lavabo lik
 Stairs is a staircase. It is above Hall and below Upper Hall.
 Upper Hall is a room.
 Large Bedroom is a room. "The room is impressively large, you can tell it was once splendorous but is now full of mold, spider-webs, and dust."
-<<<<<<< HEAD
-Medium Bedroom is a room. "Descrição do Medium Bedroom."
-Small Bedroom is a room. "A black-and-white TV with large antennas , its screen emits a a faint glow."
-=======
 Medium Bedroom is a room. "The room is dirty and covered with cobwebs, the only available lighting is the light rays that enter through the holes in the ceiling."
 Small Bedroom is a room. "An old TV is turned on, its screen emits a a faint glow."
->>>>>>> ad02f52ecfb2edc44c068d43429bd9bbc18f65cc
 Bathroom is a room. "There is nothing special here, it is just a spooky bathroom like the whole house."
 Inner Bathroom is a room.
 
