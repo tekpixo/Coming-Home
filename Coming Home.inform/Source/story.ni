@@ -156,10 +156,12 @@ Before pulling the lever:
 
 After going to the Garage Exit:
 	If lilie_was_saved is 1:
-		say "You wake up in your bed with the phone ringing, when you answer you find that your sister Lilie who has been in a coma for years has finally woken up and wants to see you.";
+		say "While you pass thru the gate, the sunlight gets stronger and stronger and...
+		[ line break ] You wake up in your bedroom with the cellphone ringing. Apparently it was all just a nightmare. When you answer your cellphone you find out that your sister Lilie who has been in a coma for years has finally woken up and wants to see you.";
 		end the story;
 	otherwise:
-		say "You feel a weird sensation, it seems that your body is disappearing.[line break] You wake up in your bed and realizes that all of this was just a dream.";
+		say "While you pass thru the gate, the sunlight gets stronger and stronger and...
+		[line break] You wake up in your bed and realizes that all of this was just a dream. An intense dream.";
 		end the story;
 
 Section 3.5 On the Kitchen
