@@ -199,6 +199,15 @@ Lilie is a woman in Upper Hall.
 
 Section 3.10 On the Large Bedroom
 
+BedroomLightOn is a truth state that varies. BedroomLightOn is false.
+
+After going to the Large Bedroom:
+	If BedroomLightOn is false:
+		say "The bedroom is so dark that you can't see anything, so you decide to go back to the Upper Hall. [line break]Maybe you should find some item in the house to help you with this darkness";
+		now Player is in Upper Hall;
+	otherwise:
+		say "The bedroom is so dark that you can't see anything, so you decide to use the flashlight to iluminate de place.";
+
 Lilie's doll is a thing. Lilie's doll is in Large Bedroom.
 
 Section 3.11 On the Medium Bedroom
@@ -233,6 +242,12 @@ Instead of examining TV:
 	end the story; 
 
 Section 3.13 On the Bathroom
+
+flashlight is a thing. flashlight is in Bathroom.
+
+Before taking the flashlight:
+	Now BedroomLightOn is true.
+
 
 Section 3.14 On the Inner Bathroom
 
