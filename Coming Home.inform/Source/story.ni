@@ -309,7 +309,7 @@ Lilie's Introduction begins when the Player is in the Upper Hall for the first t
 
 After going to Medium Bedroom:
 	If NecklaceWasTaken is false:
-		say "When you enter the room you notice a strange purple light coming from the jewelry case.";
+		say "When you enter the room you notice a strange purple light coming from somewhere.";
 	otherwise:
 		silently try looking.
 		
