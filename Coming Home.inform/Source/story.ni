@@ -40,23 +40,22 @@ Chapter 2 Geography
 
 Section 2.1 The House
 
-Porch is a room.  
-Hall is room. 
-
+Porch is a room. ""
+Hall is room. ""
 Living Room is a room. "Descrição do Living Room."
 Garage is a room. "Apparently no one's been here in weeks. In addition to a big mess and several thrown junk, you notice that the garage gate has a lever."
-Garage Exit is a room.
-Kitchen is a room. "Descrição da Kitchen."
+Garage Exit is a room. ""
+Kitchen is a room. "You can only say that this is a kitchen due to the appliances. "
 Dining Room is a room. "A creaky floor and the sound of loud, pacing footsteps coming from the floor above give this room's ambience an eerie tone."
 Home Office is a room. "Arguably the best kept room you have visited in this house so far (which isn't much of an accomplishment). Everything seems to be neatly placed."
-Lavabo is a room. "Descrição do lavabo."
-Stairs is a staircase. It is above Hall and below Upper Hall. "Descrição do Staircase."
-Upper Hall is a room. "Descrição do Upper Hall."
+Lavabo is a room. "There is nothing special here, it is just a spooky lavabo like the whole house."
+Stairs is a staircase. It is above Hall and below Upper Hall. ""
+Upper Hall is a room. ""
 Large Bedroom is a room. "The room is impressively large, you can tell it was once splendorous but is now full of mold, spider-webs, and dust."
 Medium Bedroom is a room. "Descrição do Medium Bedroom."
 Small Bedroom is a room. "An old TV is turned on, its screen emits a a faint glow."
 Bathroom is a room. "There is nothing special here, it is just a spooky bathroom like the whole house."
-Inner Bathroom is a room. "Descrição do Inner Bathroom."
+Inner Bathroom is a room. ""
 
 First Floor is a region. The Hall, Living Room, Garage, Kitchen, Dining Room, Home Office and Lavabo are in First Floor.
 Second Floor is a region. The Upper Hall, The Large Bedroom, the Medium Bedroom, The Small Bedroom, The Bathroom and the Inner Bathroom are in Second Floor.
@@ -259,7 +258,7 @@ When play begins:
 
 [ Hall ]	
 
-Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! It's been a while since our we've had a visitor. You are new here so make yourself comfortable.'"
+Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! It's been a while since our we've had a visitor. You are new here so make yourself comfortable. '"
 Bark From Hall is a scene. "You hear a bark coming from the Red door."
 Lilie Crying From Hall is a scene. "Someone is crying upstairs."
 Bark From Hall begins when the Player is in the Hall for the first turn.	
