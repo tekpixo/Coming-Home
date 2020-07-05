@@ -171,7 +171,7 @@ Carry out whistling:
 		now Little Box is in the Dining Room;
 		now Heartshaped key is in the Little Box;
 		say "A shrill whistle echoes through the house and you hear a dog approaching!
-			Apollo suddenly starts to bark. It looks like he found something in a Little Box";
+			Apollo suddenly starts to bark. It looks like he found something in the Little Box.";
 	otherwise:
 		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
 
