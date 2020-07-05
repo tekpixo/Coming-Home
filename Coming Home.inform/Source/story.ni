@@ -130,8 +130,13 @@ Josh is a man in Living Room.
 Section 3.4 On the Garage
 
 Plastic bag is a container. Plastic bag is in Garage.
+flashlight is a thing. flashlight is in  Plastic bag.
+
+Before taking the flashlight:
+	Now BedroomLightOn is true.
+
+
 Cardboard box is a thing. Cardboard box is in Garage.
-Whistle is a thing. Whistle is in Plastic bag.
 Lever is in the Garage. The lever is fixed in place.
 
 Figure of GaragePicture is the file "garage.jpg".
@@ -215,6 +220,8 @@ Instead of examining the Lilie's doll:
 
 Section 3.11 On the Medium Bedroom
 
+NecklaceWasTaken is a truth state that varies. NecklaceWasTaken is false.
+
 Jewelry Case is a container. Jewelry Case is in Medium Bedroom.
 necklace is a thing. necklace is in Jewelry Case.  The necklace is wearable.
 
@@ -222,6 +229,7 @@ necklace is a thing. necklace is in Jewelry Case.  The necklace is wearable.
 After taking the necklace :
 	Say "You have a strange feeling about this necklace as if it were familiar to you. [line break] Maybe someone knows about it.";
 	now Noah is in the Medium Bedroom;
+	now NecklaceWasTaken is true;
 	say "Noah demands, 'You found my necklace, perfect! Now give it back to me so I can keep it.'".
 	
 Instead of examining the necklace:
@@ -249,11 +257,7 @@ Instead of examining TV:
 
 Section 3.13 On the Bathroom
 
-flashlight is a thing. flashlight is in Bathroom.
-
-Before taking the flashlight:
-	Now BedroomLightOn is true.
-
+Whistle is a thing. Whistle is in Bathroom.
 
 Section 3.14 On the Inner Bathroom
 
@@ -303,8 +307,12 @@ Lilie's Introduction begins when the Player is in the Upper Hall for the first t
 
 [ Medium Bedroom]
 
-MBS is a scene. "When you enter the room you notice a strange purple light coming from the jewelry case."
-MBS begins when the Player is in the Medium Bedroom for the first turn.
+After going to Medium Bedroom:
+	If NecklaceWasTaken is false:
+		say "When you enter the room you notice a strange purple light coming from the jewelry case.";
+	otherwise:
+		silently try looking.
+		
 
 [Small Bedroom]
 
