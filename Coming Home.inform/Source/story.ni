@@ -201,6 +201,9 @@ Section 3.10 On the Large Bedroom
 
 Lilie's doll is a thing. Lilie's doll is in Large Bedroom.
 
+Instead of examining the Lilie's doll:
+	say "A rag doll wearing a green dress with a smile on its face. Its tag reads 'Lilie'."
+
 Section 3.11 On the Medium Bedroom
 
 Jewelry Case is a container. Jewelry Case is in Medium Bedroom.
