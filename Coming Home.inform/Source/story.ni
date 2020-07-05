@@ -53,8 +53,13 @@ Lavabo is a room. "There is nothing special here, it is just a spooky lavabo lik
 Stairs is a staircase. It is above Hall and below Upper Hall.
 Upper Hall is a room.
 Large Bedroom is a room. "The room is impressively large, you can tell it was once splendorous but is now full of mold, spider-webs, and dust."
+<<<<<<< HEAD
+Medium Bedroom is a room. "Descrição do Medium Bedroom."
+Small Bedroom is a room. "A black-and-white TV with large antennas , its screen emits a a faint glow."
+=======
 Medium Bedroom is a room. "The room is dirty and covered with cobwebs, the only available lighting is the light rays that enter through the holes in the ceiling."
 Small Bedroom is a room. "An old TV is turned on, its screen emits a a faint glow."
+>>>>>>> ad02f52ecfb2edc44c068d43429bd9bbc18f65cc
 Bathroom is a room. "There is nothing special here, it is just a spooky bathroom like the whole house."
 Inner Bathroom is a room.
 
@@ -210,6 +215,9 @@ After going to the Large Bedroom:
 
 Lilie's doll is a thing. Lilie's doll is in Large Bedroom.
 
+Instead of examining the Lilie's doll:
+	say "A rag doll wearing a green dress with a smile on its face. Its tag reads 'Lilie'."
+
 Section 3.11 On the Medium Bedroom
 
 Jewelry Case is a container. Jewelry Case is in Medium Bedroom.
@@ -233,7 +241,10 @@ When EndingWereable begins:
 
 Section 3.12 On the Small Bedroom
 
-TV is a thing. TV is in Small Bedroom.
+TV is a device. TV is switched on. TV is in Small Bedroom.
+
+Instead of switching off TV:
+	say "The TV's power button doesn't work, it doesn't even seem to be connected to an outlet. It seems to be getting its energy from a supernatural source"
 
 Understand "television" as TV.
 
@@ -300,6 +311,17 @@ Lilie's Introduction begins when the Player is in the Upper Hall for the first t
 MBS is a scene. "When you enter the room you notice a strange purple light coming from the jewelry case."
 MBS begins when the Player is in the Medium Bedroom for the first turn.
 
+[Small Bedroom]
+
+The Ghost Inside the TV is a Scene. 
+The Ghost Inside the TV begins when player is in Small Bedroom.
+The Ghost Inside the TV ends when player is in Upper Hall.
+
+When The Ghost Inside the TV begins:
+	now Noah is in Small Bedroom;
+	Say "Noah warns, 'That TV is cursed, don't examine it unless you want trouble.'".
+
+
 Chapter 5 NPCs
 
 Section 5.1 Noah
@@ -310,8 +332,10 @@ Instead of asking Noah about "the dining room":
 	say "Noah is silent and looks concerned."
 
 Instead of asking Noah about "the necklace":
-	say "Noah says 'It is mine!! give me back!' but it looks a little suspicious"
-	
+	say "Noah suspiciously exclaims, 'It's mine!! Give it back to me!'"
+
+Instead of asking Noah about "the TV":
+	say "Noah says, 'I'm telling you, do yourself a favor and stay away from it.'"
 
 Instead of giving a necklace to Noah:
   Say "Noah quickly picks up the [the necklace] smiles and makes the necklace suddenly disappear.[line break]";
