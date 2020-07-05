@@ -91,14 +91,14 @@ The matching key of the scratched door is the rusty key.
 
 Purple door is a door. It is north of Bathroom and south of Upper Hall. Purple door is closed and unlocked.
 
-Heart-painted door is a door. It is west of Medium Bedroom and east of Upper Hall. Heart-painted door is closed and locked.
-The matching key of the Heart-painted door is the Heartshaped key.
+Wooden door is a door. It is west of Medium Bedroom and east of Upper Hall. Wooden door is closed and locked.
+The matching key of the Wooden door is the Small key.
 
 Garage gate is a door. It is west of Garage and east of Garage Exit. Garage gate is closed and locked.
 
 Section 2.3 Keys
 
-The Heartshaped key is nowhere.
+The Small key is nowhere.
 
 The Rusty Key is nowhere.
 
@@ -174,7 +174,7 @@ Carry out whistling:
 	if Player is in Dining Room:
 		now the dog is in the Dining Room;	
 		now Little Box is in the Dining Room;
-		now Heartshaped key is in the Little Box;
+		now Small key is in the Little Box;
 		say "A shrill whistle echoes through the house and you hear a dog approaching!
 			Apollo suddenly starts to bark. It looks like he found something in the Little Box.";
 	otherwise:
