@@ -147,7 +147,7 @@ Before pulling the lever:
 		say "Noah says, 'Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.'";
 	otherwise:
 		now Garage gate is locked;
-		say "Noah says, 'Wise decision. Now let's go back to the other rooms.'" 
+		say "Noah says, 'Wise decision. Now let's go back to the other rooms, you have a lot of things to explore.'" 
 
 After going to the Garage Exit:
 	If lilie_was_saved is 1:
