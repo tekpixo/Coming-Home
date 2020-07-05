@@ -34,7 +34,7 @@ Carry out sitting on a chair:
 	silently try entering the noun.
 
 Report sitting on a chair:
-	say "You feel confortable".
+	say "You feel comfortable.".
 
 Chapter 2 Geography
 
@@ -120,7 +120,7 @@ Noah is a man in Hall.
 
 Figure of HallPicture is the file "hall.jpg".
 
-After going to the Hall:
+Before going to the Hall:
 	Display the Figure of HallPicture.
 
 Section 3.3 On the Living Room
@@ -136,18 +136,18 @@ Lever is in the Garage. The lever is fixed in place.
 
 Figure of GaragePicture is the file "garage.jpg".
 
-After going to the Garage:
+Before going to the Garage:
 	Display the Figure of GaragePicture.
 
 Before pulling the lever:
 	if Garage gate is locked:
 		now Noah is in the Garage;
 		now Garage gate is unlocked;
-		say "You pull the lever and now the gate is open. Noah hears the sound of the lever and enters the garage.";
-		say "Noah says, 'Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.'";
+		say "You pull the lever and now the gate is open. Noah hears the sound of the lever and enters the garage.
+		[ line break ] Noah says, 'Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.'";
 	otherwise:
 		now Garage gate is locked;
-		say "Noah says, 'Wise decision. Now let's go back to the other rooms.'" 
+		say "Noah replies, 'Wise decision. Now let's go back to the other rooms, I'm sure you have a lot of things to explore before you leave.'" 
 
 After going to the Garage Exit:
 	If lilie_was_saved is 1:
@@ -161,7 +161,7 @@ Section 3.5 On the Kitchen
 
 Section 3.6 On the Dining Room
 
-Little Box is a container.Little Box is nowhere.
+Little Box is a container. Little Box is nowhere.
 
 Understand "whistle [something]" as whistling.
 Whistling is an action applying to one thing.
@@ -171,7 +171,7 @@ Carry out whistling:
 		now Little Box is in the Dining Room;
 		now Heartshaped key is in the Little Box;
 		say "A shrill whistle echoes through the house and you hear a dog approaching!
-			Apollo suddenly starts to bark. It looks like he found something in a Little Box";
+			Apollo suddenly starts to bark. It looks like he found something in the Little Box.";
 	otherwise:
 		say "A shrill whistle echoes through the house but nothing happens. You should use it somewhere else.".
 
@@ -259,7 +259,7 @@ When play begins:
 
 [ Hall ]	
 
-Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! It's been a while since our we've had a visitor. You are new here so make yourself comfortable.'"
+Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! It's been a while since we've seen anyone new around here. [ line break ] This house has two floors, the rooms are in the second and here in the first we have the garage, kitchen, office, and some others that you will discover with time. .There is a few people walking around. [ line break ] You are new here so make yourself comfortable.'"
 Bark From Hall is a scene. "You hear a bark coming from the Red door."
 Lilie Crying From Hall is a scene. "Someone is crying upstairs."
 Bark From Hall begins when the Player is in the Hall for the first turn.	
