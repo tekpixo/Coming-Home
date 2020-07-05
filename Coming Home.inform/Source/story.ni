@@ -295,7 +295,7 @@ Instead of asking Noah about "the dining room":
 	say "Noah is silent and looks concerned."
 
 Instead of asking Noah about "the necklace":
-	say "Noah: It is mine!! give me back!"
+	say "Noah says 'It is mine!! give me back!' but it looks a little suspicious"
 	
 
 Instead of giving a necklace to Noah:
