@@ -55,7 +55,7 @@ Upper Hall is a room. "Descrição do Upper Hall."
 Large Bedroom is a room. "The room is impressively large, you can tell it was once splendorous but is now full of mold, spider-webs, and dust."
 Medium Bedroom is a room. "Descrição do Medium Bedroom."
 Small Bedroom is a room. "An old TV is turned on, its screen emits a a faint glow."
-Bathroom is a room."Descrição do Bathroom."
+Bathroom is a room. "There is nothing special here, it is just a spooky bathroom like the whole house."
 Inner Bathroom is a room. "Descrição do Inner Bathroom."
 
 First Floor is a region. The Hall, Living Room, Garage, Kitchen, Dining Room, Home Office and Lavabo are in First Floor.
@@ -113,11 +113,6 @@ Section 3.1 On the Porch
 
 Main key is in Porch.
 Wooden chair is a chair. Wooden chair is in Porch.
-
-Old box is a container. Old box is in Porch.
-
-candle is a thing.
-candle is in Old box.
 
 Section 3.2 On the Hall
 
@@ -243,15 +238,14 @@ Section 3.14 On the Inner Bathroom
 
 Chapter 4 What Happens when entering each room
 
-
-
 Being Outside the House is a Scene. 
 Being Outside the House begins when play begins.
 Being Outside the House ends when player is in Hall.
 
 When Being Outside the House ends:
 	remove the main key from play;
-	Say "The door closes in a bump and the key disappears from the lock. The inside smells as bad news...".
+	Say "The door closes in a bump and the key disappears from the lock. The inside smells as bad news...";
+	now main door is locked;
 
 
 Before taking the Main Key during Being Outside the House:
@@ -261,11 +255,11 @@ Figure of InitialPicture is the file "house.jpg"
 	
 When play begins:
 	Display the Figure of InitialPicture;
-	Say "A cold wind blows early in the morning and makes you come back to yourself. A slight headache bothers you and you don't know exactly where you are, even though you know the house you're in.".
+	Say "A cold wind blows early in the morning and makes you come back to yourself. A slight headache bothers you and you don't know exactly where you are, even though you know the house you are in. [ line break ] You can hear noises coming from the house but you can't tell what it is.".
 
 [ Hall ]	
 
-Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! it's been a while since our we've had a visitor. Make yourself comfortable.'"
+Noah's Introduction is a scene. "A man in his mid-thirties says, 'Hello, I'm Noah! It's been a while since our we've had a visitor. You are new here so make yourself comfortable.'"
 Bark From Hall is a scene. "You hear a bark coming from the Red door."
 Lilie Crying From Hall is a scene. "Someone is crying upstairs."
 Bark From Hall begins when the Player is in the Hall for the first turn.	
@@ -298,7 +292,7 @@ Chapter 5 NPCs
 
 Section 5.1 Noah
 
-Instead of asking Noah about "the house", say "Noah replies, 'Well, isn't this house lovely! Feel free to explore it and enjoy your stay for as long as you like' [line break] You look around and don't seem to agree with Noah on how 'lovely' the house is., spooky would be more like it".
+Instead of asking Noah about "the house", say "Noah replies, 'Well, isn't this house lovely! Feel free to explore it and enjoy your stay for as long as you like' [line break] You look around and don't seem to agree with Noah on how 'lovely' the house is, spooky would be more like it.".
 
 Instead of asking Noah about "the dining room":
 	say "Noah is silent and looks concerned."
