@@ -123,6 +123,11 @@ Section 3.2 On the Hall
 
 Noah is a man in Hall.
 
+Figure of HallPicture is the file "hall.jpg".
+
+After going to the Hall:
+	Display the Figure of HallPicture.
+
 Section 3.3 On the Living Room
 
 Josh is a man in Living Room.
@@ -136,7 +141,7 @@ Lever is in the Garage. The lever is fixed in place.
 
 Figure of GaragePicture is the file "garage.jpg".
 
-Before going to the Garage:
+After going to the Garage:
 	Display the Figure of GaragePicture.
 
 Before pulling the lever:
