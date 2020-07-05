@@ -134,10 +134,6 @@ Cardboard box is a thing. Cardboard box is in Garage.
 Whistle is a thing. Whistle is in Plastic bag.
 Lever is in the Garage. The lever is fixed in place.
 
-Rule for printing the name of the Plastic bag: 
-	say "[printed name of Plastic bag]";
-	omit contents in listing.
-
 Figure of GaragePicture is the file "garage.jpg".
 
 Before going to the Garage:
