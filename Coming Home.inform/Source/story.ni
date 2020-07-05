@@ -294,6 +294,17 @@ DRS begins when the Player is in the Dining Room for the first turn.
 MBS is a scene. "When you enter the room you notice a strange purple light coming from the jewelry case."
 MBS begins when the Player is in the Medium Bedroom for the first turn.
 
+[Small Bedroom]
+
+The Ghost Inside the TV is a Scene. 
+The Ghost Inside the TV begins when player is in Small Bedroom.
+The Ghost Inside the TV ends when player is in Upper Hall.
+
+When The Ghost Inside the TV begins:
+	now Noah is in Small Bedroom;
+	Say "Noah warns, 'That TV is cursed, don't examine it unless you want trouble.'".
+
+
 Chapter 5 NPCs
 
 Section 5.1 Noah
