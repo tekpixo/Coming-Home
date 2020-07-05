@@ -134,13 +134,22 @@ Cardboard box is a thing. Cardboard box is in Garage.
 Whistle is a thing. Whistle is in Plastic bag.
 Lever is in the Garage. The lever is fixed in place.
 
-Instead of pulling the lever:
-	now Noah is in the Garage;
-	now Garage gate is unlocked;
-	say "You pull the lever and now the gate is open. Noah hears the sound of the lever and enters the garage.";
-	say "Noah says, 'Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.'";
+Figure of GaragePicture is the file "garage.jpg".
 
-Before going to the Garage Exit:
+Before going to the Garage:
+	Display the Figure of GaragePicture.
+
+Before pulling the lever:
+	if Garage gate is locked:
+		now Noah is in the Garage;
+		now Garage gate is unlocked;
+		say "You pull the lever and now the gate is open. Noah hears the sound of the lever and enters the garage.";
+		say "Noah says, 'Are you sure leaving the house is a good idea? You don't remember how you got here and getting out now can be dangerous... You should pull the lever again to close the gate.'";
+	otherwise:
+		now Garage gate is locked;
+		say "Noah says, 'Wise decision. Now let's go back to the other rooms.'" 
+
+After going to the Garage Exit:
 	If lilie_was_saved is 1:
 		say "You wake up in your bed with the phone ringing, when you answer you find that your sister Lilie who has been in a coma for years has finally woken up and wants to see you.";
 		end the story;
@@ -237,8 +246,7 @@ Being Outside the House ends when player is in Hall.
 
 When Being Outside the House ends:
 	remove the main key from play;
-	Say "The door closes in a bump and the key disappears from the lock.
-		The inside smells as bad news...".
+	Say "The door closes in a bump and the key disappears from the lock. The inside smells as bad news...".
 
 
 Before taking the Main Key during Being Outside the House:
@@ -248,7 +256,7 @@ Figure of InitialPicture is the file "house.jpg"
 	
 When play begins:
 	Display the Figure of InitialPicture;
-	Say "A chilling wind blows in the late afternoon.".
+	Say "A cold wind blows early in the morning and makes you come back to yourself. A slight headache bothers you and you don't know exactly where you are, even though you know the house you're in.".
 
 [ Hall ]	
 
@@ -263,11 +271,11 @@ Noah's Introduction begins when the Player is in the Hall for the first turn.
 
 Bark From Living Room is a scene. "A Labrador barks. From his dog collar, you see his name must be Apolo."
 Bark From Living Room begins when the Player is in the Living Room for the first turn.
-Josh's Introduction is a scene. "A blind man says, 'Hey! How're you doing? I seem to have lost my dog whistle, it's pretty useful to call Apolo whenever he's wandering somewhere else around the house.'"
+Josh's Introduction is a scene. "A blind man says, 'Hey! Who are you? Lilie? Errrr... That's not relevant right now. I seem to have lost my dog whistle, it's pretty useful to call Apolo whenever he's wandering somewhere else around the house.'"
 Josh's Introduction begins when the Player is in the Living Room for the first turn.
 
 [ Upper Hall ]
-Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my doll? I don't go anywhere without it.... [ line break ] I don't remember where I left it, but it's probably somewhere on this floor.'"
+Lilie's Introduction is a scene. "A girl scaredly says, 'Have you seen my doll? I don't go anywhere without it... [ line break ] I don't remember where I left it, but it's probably somewhere on this floor.'"
 Lilie's Introduction begins when the Player is in the Upper Hall for the first turn.
 
 [ Dinning Room]
@@ -314,7 +322,7 @@ Understand "Apolo" as the dog.
 Section 5.4  Lilie
 
 The lilie_has_doll is a number which varies.
-the lilie_has doll is initially 0.
+the lilie_has_doll is initially 0.
 
 Instead of asking Lilie about "the doll":
 	If lilie_has_doll is 0:
